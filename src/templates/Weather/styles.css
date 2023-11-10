@@ -1,0 +1,138 @@
+.pageGray {
+  color: #ffffff;
+  background: linear-gradient(
+    356deg,
+    rgba(79, 87, 103, 1) 2%,
+    rgba(96, 103, 119, 1) 15%,
+    rgba(98, 105, 121, 1) 99%
+  );
+}
+.pageSilver {
+  color: #000000;
+  background: linear-gradient(
+    360deg,
+    rgba(166, 166, 166, 1) 2%,
+    rgba(199, 199, 199, 1) 15%,
+    rgba(224, 224, 224, 1) 99%
+  );
+}
+.pageCyan {
+  color: #ffffff;
+  background: linear-gradient(
+    360deg,
+    rgba(58, 160, 181, 1) 2%,
+    rgba(75, 186, 204, 1) 15%,
+    rgba(86, 203, 219, 1) 99%
+  );
+}
+.pageBox {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin-top: -4rem;
+}
+.iconBack {
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.iconWeather {
+  width: 130px;
+  height: 130px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.iconArrow {
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
+.lineTemp {
+  width: 10%;
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.homeColumn {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #dddddd;
+}
+.degree {
+  font-size: 150px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+}
+.degree-var {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.degree-escala {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.boxForecast {
+  display: flex;
+  align-items: center;
+}
+.forecastTitle {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.lastColumn {
+  display: flex;
+  flex-direction: column;
+}
+.variation {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 600px) {
+  .pageBox {
+    width: 100%;
+  }
+  .iconBack {
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .boxForecast {
+    display: flex;
+    align-items: center;
+  }
+  .homeColumn {
+    margin-left: 5px;
+    padding-right: 5px;
+  }
+  .forecastTitle {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+  }
+  .degree {
+    font-size: 100px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+  }
+  .iconArrow {
+    width: 15px;
+    height: 15px;
+  }
+  .degree-var {
+    font-size: 15px;
+  }
+}
